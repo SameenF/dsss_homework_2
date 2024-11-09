@@ -1,6 +1,5 @@
 import random
 
-
 def random_int(min, max):
     """
     Generate a random integer between min and max (inclusive).
@@ -14,7 +13,6 @@ def random_int(min, max):
     """
     return random.randint(min, max)
 
-
 def random_operator():
     """
     Select a random operator from the list of possible operators: '+', '-', or '*'.
@@ -23,7 +21,6 @@ def random_operator():
     str: A randomly selected operator.
     """
     return random.choice(['+', '-', '*'])
-
 
 def calculate(n1, n2, operator):
     """
